@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="91.0" prefWidth="297.0" stylesheets="@../Styles/signup_Styling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIs.LoginScreen.Controllers.popupScreenController">
+   <children>
+      <StackPane layoutY="21.0" prefHeight="56.0" prefWidth="297.0">
+         <children>
+            <Label fx:id="Message" text="Label" wrapText="true" StackPane.alignment="TOP_CENTER" />
+            <Button fx:id="close_button" mnemonicParsing="false" prefHeight="14.0" prefWidth="45.0" text="Close" StackPane.alignment="BOTTOM_CENTER" />
+         </children>
+      </StackPane>
+   </children>
+</Pane>

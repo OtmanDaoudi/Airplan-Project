@@ -1,0 +1,20 @@
+.label{
+    -fx-text-fill: #000000;
+}
+.root{
+    -fx-background-color: #767a75;
+}
+.text-field{
+    -fx-background-color: #9A9A91;
+    -fx-background-radius: 10;
+}
+.button{
+    -fx-background-color : linear-gradient(#dc9656, #ab4642);
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10; //this makes the button looks like it is rounded
+}
+#button-butt{
+    -fx-background-color : linear-gradient(#dc0005, #dc2a87);
+    -fx-text-fill: #42ff0c;
+    -fx-background-radius: 10; //this makes the button looks like it is rounded
+}

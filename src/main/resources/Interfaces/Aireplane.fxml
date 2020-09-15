@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="398.0" prefWidth="647.0" stylesheets="@../Styles/AireplaneScreen_Styling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIs.LoginScreen.Controllers.AireplaneScreenController">
+    <children>
+        <ScrollPane prefHeight="278.0" prefWidth="671.0" vbarPolicy="NEVER">
+            <content>
+                <Pane prefHeight="278.0" prefWidth="746.0">
+                    <children>
+                        <ImageView fitHeight="278.0" fitWidth="804.0" layoutX="-15.0" layoutY="-6.0" pickOnBounds="true" rotate="0.7" smooth="false">
+                            <image>
+                                <Image url="@../images/plane.png" />
+                            </image>
+                        </ImageView>
+                  <ImageView fx:id="A1" fitHeight="30.0" fitWidth="57.0" layoutX="112.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B1" fitHeight="30.0" fitWidth="57.0" layoutX="112.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C1" fitHeight="30.0" fitWidth="57.0" layoutX="112.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D1" fitHeight="30.0" fitWidth="57.0" layoutX="112.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A2" fitHeight="30.0" fitWidth="57.0" layoutX="164.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B2" fitHeight="30.0" fitWidth="57.0" layoutX="164.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C2" fitHeight="30.0" fitWidth="57.0" layoutX="164.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D2" fitHeight="30.0" fitWidth="57.0" layoutX="164.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/blue_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A3" fitHeight="30.0" fitWidth="57.0" layoutX="218.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B3" fitHeight="30.0" fitWidth="57.0" layoutX="218.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C3" fitHeight="30.0" fitWidth="57.0" layoutX="218.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D3" fitHeight="30.0" fitWidth="57.0" layoutX="218.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A4" fitHeight="30.0" fitWidth="57.0" layoutX="270.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B4" fitHeight="30.0" fitWidth="57.0" layoutX="270.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C4" fitHeight="30.0" fitWidth="57.0" layoutX="270.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D4" fitHeight="30.0" fitWidth="57.0" layoutX="270.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/yellow_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A5" fitHeight="30.0" fitWidth="57.0" layoutX="322.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B5" fitHeight="30.0" fitWidth="57.0" layoutX="322.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C5" fitHeight="30.0" fitWidth="57.0" layoutX="322.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D5" fitHeight="30.0" fitWidth="57.0" layoutX="322.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A6" fitHeight="30.0" fitWidth="57.0" layoutX="376.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B6" fitHeight="30.0" fitWidth="57.0" layoutX="376.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C6" fitHeight="30.0" fitWidth="57.0" layoutX="376.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D6" fitHeight="30.0" fitWidth="57.0" layoutX="376.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A7" fitHeight="30.0" fitWidth="57.0" layoutX="426.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B7" fitHeight="30.0" fitWidth="57.0" layoutX="426.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C7" fitHeight="30.0" fitWidth="57.0" layoutX="426.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D7" fitHeight="30.0" fitWidth="57.0" layoutX="426.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A8" fitHeight="30.0" fitWidth="57.0" layoutX="480.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B8" fitHeight="30.0" fitWidth="57.0" layoutX="480.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C8" fitHeight="30.0" fitWidth="57.0" layoutX="480.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D8" fitHeight="30.0" fitWidth="57.0" layoutX="480.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="A9" fitHeight="30.0" fitWidth="57.0" layoutX="524.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B9" fitHeight="30.0" fitWidth="57.0" layoutX="524.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C9" fitHeight="30.0" fitWidth="57.0" layoutX="524.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D9" fitHeight="30.0" fitWidth="57.0" layoutX="524.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="93.0" layoutY="57.0" text="A">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="93.0" layoutY="87.0" text="B">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="93.0" layoutY="131.0" text="C">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="93.0" layoutY="161.0" text="D">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="121.0" layoutY="113.0" text="1" />
+                  <Label layoutX="332.0" layoutY="112.0" text="5" />
+                  <Label layoutX="175.0" layoutY="113.0" text="2" />
+                  <Label layoutX="228.0" layoutY="113.0" text="3" />
+                  <Label layoutX="280.0" layoutY="113.0" text="4" />
+                  <Label layoutX="386.0" layoutY="113.0" text="6" />
+                  <Label layoutX="436.0" layoutY="112.0" text="7" />
+                  <Label layoutX="490.0" layoutY="112.0" text="8" />
+                  <Label layoutX="534.0" layoutY="113.0" text="9" />
+                  <ImageView fx:id="A10" fitHeight="30.0" fitWidth="57.0" layoutX="565.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="B10" fitHeight="30.0" fitWidth="57.0" layoutX="565.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="C10" fitHeight="30.0" fitWidth="57.0" layoutX="565.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="D10" fitHeight="30.0" fitWidth="57.0" layoutX="565.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/seats/transparent/light_grey_seat.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="572.0" layoutY="113.0" text="10" />
+                    </children>
+                </Pane>
+            </content>
+        </ScrollPane>
+        <Label layoutX="8.0" layoutY="278.0" prefHeight="17.0" prefWidth="72.0" text="seat type" />
+        <Separator layoutY="301.0" prefHeight="3.0" prefWidth="200.0" />
+        <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="8.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/seats/transparent/blue_seat.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="44.0" layoutY="316.0" text="Premuime seat" />
+        <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="149.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/seats/transparent/yellow_seat.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="185.0" layoutY="316.0" prefHeight="17.0" prefWidth="89.0" text="First-Class seat" />
+        <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="8.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/seats/transparent/light_grey_seat.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="44.0" layoutY="353.0" text="Stendar seat" />
+        <Label layoutX="357.0" layoutY="278.0" text="Availability" />
+        <Separator layoutX="357.0" layoutY="300.0" prefWidth="200.0" />
+        <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="357.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/seats/transparent/dark_seat.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="393.0" layoutY="316.0" prefHeight="17.0" prefWidth="89.0" text="Seat is Full" />
+        <ImageView fitHeight="30.0" fitWidth="27.0" layoutX="482.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/seats/transparent/red_seat.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="518.0" layoutY="316.0" prefHeight="17.0" prefWidth="89.0" text="My seat" />
+      <Button fx:id="myticket_Button" layoutX="456.0" layoutY="358.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="My Tikcet" />
+      <Button layoutX="540.0" layoutY="358.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="79.0" text="exit" />
+      <Button fx:id="saveticket_button" layoutX="370.0" layoutY="358.0" mnemonicParsing="false" onAction="#save_ticket" prefHeight="25.0" prefWidth="79.0" text="Save Ticket" />
+    </children>
+</Pane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="304.0" prefWidth="600.0" stylesheets="@../Styles/login_Styling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIs.LoginScreen.Controllers.LoginScreenController">
+   <children>
+      <Label layoutX="68.0" layoutY="43.0" prefHeight="43.0" prefWidth="107.0" text="User:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="113.0" text="Password:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username_input" layoutX="226.0" layoutY="44.0" prefHeight="42.0" prefWidth="293.0" promptText="username or id">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password_input" layoutX="226.0" layoutY="113.0" prefHeight="42.0" prefWidth="293.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="login_button" layoutX="65.0" layoutY="246.0" mnemonicParsing="false" onAction="#Login" prefHeight="39.0" prefWidth="221.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="signup_button" layoutX="338.0" layoutY="246.0" mnemonicParsing="false" onAction="#signup" prefHeight="39.0" prefWidth="221.0" text="SignUp">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="338.0" layoutY="204.0" text="Don't have an account ?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="338.0" layoutY="231.0" prefHeight="0.0" prefWidth="221.0" />
+   </children>
+</Pane>

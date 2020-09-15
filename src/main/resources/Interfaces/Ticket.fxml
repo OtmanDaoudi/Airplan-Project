@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="955.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIs.LoginScreen.Controllers.TicketUIController">
+   <children>
+      <ImageView fitHeight="390.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../images/Ticket.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="Company" layoutX="52.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compay Name" wrappingWidth="81.41082763671875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="Flight" layoutX="107.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flight" wrappingWidth="180.0" />
+      <Text fx:id="Date" layoutX="106.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="Time" layoutX="106.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="From" layoutX="107.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="TO" layoutX="107.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="Class" layoutX="107.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="Seat" layoutX="107.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text layoutX="296.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Owner :" wrappingWidth="112.38933372497559">
+         <font>
+            <Font name="Arial Nova" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="Owner" layoutX="377.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="258.0">
+         <font>
+            <Font name="Arial Nova" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="Company_r" layoutX="716.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compay Name" wrappingWidth="81.41082763671875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="Flighr_r" layoutX="780.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="Date_r" layoutX="780.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="Time_r" layoutX="780.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="From_r" layoutX="780.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="To_r" layoutX="780.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="Class_r" layoutX="780.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+      <Text fx:id="Seat_r" layoutX="780.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="180.0" />
+   </children>
+</AnchorPane>

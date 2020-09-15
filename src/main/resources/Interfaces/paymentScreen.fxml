@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="387.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../Styles/payment.css" fx:controller="GUIs.LoginScreen.Controllers.paymentScreenController">
+   <children>
+      <ImageView blendMode="DARKEN" fitHeight="178.0" fitWidth="264.0" layoutX="-1.0" layoutY="2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/payment/PayPalTransparent.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="85.0" layoutY="163.0" text="Payment Details :" />
+      <Label layoutX="31.0" layoutY="191.0" text="Full Name : " />
+      <TextField layoutX="103.0" layoutY="187.0" />
+      <TextField fx:id="first_textfield" layoutX="11.0" layoutY="238.0" prefHeight="35.0" prefWidth="240.0" />
+      <TextField layoutX="12.0" layoutY="289.0" prefHeight="35.0" prefWidth="117.0" />
+      <TextField layoutX="133.0" layoutY="289.0" prefHeight="35.0" prefWidth="117.0" />
+      <Button fx:id="validate_infos_button" layoutX="103.0" layoutY="345.0" mnemonicParsing="false" onAction="#validate_infos" text="Validate" />
+      <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="216.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/payment/card.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="216.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/payment/interface.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="94.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/payment/technology.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

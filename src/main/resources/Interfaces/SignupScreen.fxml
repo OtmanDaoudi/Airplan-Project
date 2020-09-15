@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="600.0" stylesheets="@../Styles/signup_Styling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIs.LoginScreen.Controllers.SignupScreenController">
+   <children>
+      <Label layoutX="78.0" layoutY="53.0" prefHeight="43.0" prefWidth="107.0" text="User:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="123.0" text="Password:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username_input" layoutX="236.0" layoutY="54.0" prefHeight="42.0" prefWidth="293.0" promptText="username or id">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password_input" layoutX="236.0" layoutY="123.0" prefHeight="42.0" prefWidth="293.0" promptText="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="signup_button" layoutX="190.0" layoutY="200.0" mnemonicParsing="false" onAction="#signup" prefHeight="39.0" prefWidth="221.0" text="SignUp">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="190.0" layoutY="246.0" text="*after signing up use your infos to login" />
+   </children>
+</Pane>
